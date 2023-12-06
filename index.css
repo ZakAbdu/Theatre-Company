@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.griot {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.featured-shows img {
+    width: 100%;
+    height: 600px;
+}
+
+.img-text {
+    color: white;
+    position: absolute;
+    font-family: fantasy;
+    font-size: 90px;
+    top: 30%;
+    left: 30%;
+}
+
+.event-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gray-box {
+    display: inline-block;
+    background-color: gray;
+    border: 2px solid black;
+    padding: 0px;
+    width: 60%;
+}
+
+.event-date {
+    margin: 5px;
+    color: black;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.show-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centered-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img2 {
+    width: 15%;
+    height: 20%;
+    margin-right: 80px;
+}
+
+.text-section {
+    text-align: left;
+    margin-right: 110px;
+}
+
+.text-section h2 {
+    margin-bottom: 5px;
+}
+
+.read-more {
+    background-color: goldenrod;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.black-line {
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+
+#main-logo {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
